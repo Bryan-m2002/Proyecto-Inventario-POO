@@ -7,7 +7,7 @@ namespace Proyecto.AccesoDatos
 {
     public class UsuarioDAO
     {
-        private string connectionString = ConfigurationManager.ConnectionStrings["inventario_db_con"].ConnectionString;
+        private string connectionString = ConfigurationManager.ConnectionStrings["AppDb"].ConnectionString;
 
         public bool InsertarUsuario(Usuario usuario)
         {
