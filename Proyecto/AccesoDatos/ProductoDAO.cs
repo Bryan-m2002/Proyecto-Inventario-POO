@@ -9,7 +9,7 @@ namespace Proyecto.AccesoDatos
 {
     public class ProductoDAO
     {
-        private string connectionString = ConfigurationManager.ConnectionStrings["inventario_db_con"].ConnectionString;
+        private string connectionString = ConfigurationManager.ConnectionStrings["AppDb"].ConnectionString;
 
         public List<Producto> ObtenerProductos()
         {
